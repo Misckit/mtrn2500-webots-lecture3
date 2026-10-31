@@ -1,6 +1,6 @@
 build/release/MySecondControllerSln1.o: MySecondControllerSln1.cpp \
- C:\Program\ Files\Webots/include/controller/cpp/webots/Robot.hpp \
- C:/Program\ Files/Webots/include/controller/c/webots/types.h \
- C:\Program\ Files\Webots/include/controller/cpp/webots/Motor.hpp \
- C:\Program\ Files\Webots/include/controller/cpp/webots/Device.hpp \
- C:\Program\ Files\Webots/include/controller/cpp/webots/DistanceSensor.hpp
+  /Applications/Webots.app/Contents/include/controller/cpp/webots/Robot.hpp \
+  /Applications/Webots.app/Contents/include/controller/cpp/webots/../../c/webots/types.h \
+  /Applications/Webots.app/Contents/include/controller/cpp/webots/Motor.hpp \
+  /Applications/Webots.app/Contents/include/controller/cpp/webots/Device.hpp \
+  /Applications/Webots.app/Contents/include/controller/cpp/webots/DistanceSensor.hpp
