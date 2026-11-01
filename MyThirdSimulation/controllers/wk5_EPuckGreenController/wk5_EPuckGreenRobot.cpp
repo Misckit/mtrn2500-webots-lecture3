@@ -23,11 +23,18 @@ EPuckGreenRobot::EPuckGreenRobot()
  }
  
  void EPuckGreenRobot::run() {
+   EPuckGreenRobot::display();
    while (step(TIME_STEP) != -1) {
      int k {mKeyboard->getKey()};
      if (k == 'T') {
        //turn right
        turn();
+     } else if (k == 'B') {
+       // send message "Backward"
+       sendMessage("Backward");
+     } else if (k == 'R') {
+       // send message "Roam"
+       sendMessage("Roam");
      } else {
        roam(); //inherited from EPuckRobot
      }
